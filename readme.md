@@ -6,7 +6,10 @@ A simple Node.js + Express + Multer application that allows users to upload a CS
 
 <div align="center">
     <img src="./project_images/home.png" alt="CSV to JSON" width="100%">
+    <br>
     <img src="./project_images/output.png" alt="CSV to JSON" width="100%">
+    <br>
+    <img src="./project_images/error.png" alt="CSV to JSON" width="100%">
 </div>
 
 ## 🚀 Features
