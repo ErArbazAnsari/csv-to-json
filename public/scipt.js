@@ -8,6 +8,8 @@ document
             alert("Please select a CSV file!");
             return;
         }
+        // disabling submit btn
+        document.getElementById("submitBtn").disabled = true;
 
         let formData = new FormData();
         formData.append("csvFile", fileInput.files[0]);
