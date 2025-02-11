@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSV to JSON</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <h2>Upload CSV File</h2>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="csvFile" accept=".csv" required />
+            <button type="submit">Upload</button>
+        </form>
+
+        <h3>Converted JSON</h3>
+        <pre
+            id="jsonOutput"
+            style="
+                white-space: pre-wrap;
+                word-wrap: break-word;
+                max-height: 60dvh;
+                overflow: auto;
+            "
+        ></pre>
+
+        <script src="./scipt.js"></script>
+    </body>
+</html>

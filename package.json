@@ -1,0 +1,18 @@
+{
+    "name": "csvmapper",
+    "version": "1.0.0",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "csvtojson": "^2.0.10",
+        "express": "^4.21.2",
+        "multer": "^1.4.5-lts.1"
+    }
+}
