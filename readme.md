@@ -2,6 +2,13 @@
 
 A simple Node.js + Express + Multer application that allows users to upload a CSV file and automatically map its columns to a standard database structure, converting it to JSON.
 
+## Images
+
+<div align="center">
+    <img src="./project_images/home.png" alt="CSV to JSON" width="100%">
+    <img src="./project_images/output.png" alt="CSV to JSON" width="100%">
+</div>
+
 ## 🚀 Features
 
 -   ✅ Upload CSV files via a web interface.
